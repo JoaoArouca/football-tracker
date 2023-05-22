@@ -18,7 +18,9 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
-  border-style, input, button {
-    font: 400 1rem, Roboto, sans-serif;
+  body, input, button {
+    font-size: 1rem;
+    font-family: Poppins;
+    font-weight: 400;
   }
   `
